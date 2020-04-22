@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://i.ytimg.com/vi/YyrKTgGRr-Q/maxresdefault.jpg');
+      background-size: cover;
+      color: black;
+    }
+    a {
+      color: black;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid black;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.10);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="\Proyecto web 1\20160420185702_IMG_0899.JPG">
+    <h1> Candela Blog </h1>
+    <ul>
+      <li><a href="#">Aficiones</a></li>
+      <li><a href="#">Estudios</a></li>
+      <li><a href="#">Futuro</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Mi instrumento</h2>
+    <p>Llevo desde los 8 años tocando un instrumento, el oboe, y por tanto 10 años ya en el conservatorio. Gracias a él he formado parte de varias agrupaciones, como pueden ser una orquesta sinfónica y una banda.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Aficiones</h2>
+    <p>Entre mis aficiones se encuentra, como es obvio, la música, tanto el oboe como la guitarra, además de pasar el tiempo escribiendo y dibujando a ratos</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Mi futuro</h2>
+    <p>Como plan de futuro todavía no tengo ninguno asentado, lo que sí me gustaría es sacarme mi carrera y después pasar un tiempo en el extranjero trabajando y conociendo mundo</p>
+    <button>
+        Like
+        <script>
+      alert("Le ha gustado!");
+        </script>
+      </button>
+  </article>
+</body>
